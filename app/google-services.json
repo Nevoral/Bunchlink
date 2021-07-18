@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "920596836430",
+    "firebase_url": "https://bunchlink-cf7a2.firebaseio.com",
+    "project_id": "bunchlink-cf7a2",
+    "storage_bucket": "bunchlink-cf7a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920596836430:android:6e13263a3a05cf24cf931f",
+        "android_client_info": {
+          "package_name": "com.example.bunchlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920596836430-b3g7oeq542ekr03746k8v3beias4ppc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsG1nKz0h_nORrVroKI4SDcctNFYauICE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920596836430-b3g7oeq542ekr03746k8v3beias4ppc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

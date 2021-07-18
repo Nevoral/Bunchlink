@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/forgot"
+
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/pozadi"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_person_black_150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@+id/image_profile"
+        android:id="@+id/username"
+        android:textColorHint="@color/text"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:id="@+id/contakt"
+        android:hint="E-mail"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10sp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contakt"
+        android:id="@+id/phone"
+        android:hint="Phone number"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="10sp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:id="@+id/firstname"
+        android:hint="First name"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10sp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:id="@+id/lastname"
+        android:hint="Last name"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_people_black_24dp"
+        android:drawablePadding="10sp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname"
+        android:id="@+id/birthdate"
+        android:hint="Birthdate"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_today_black_24dp"
+        android:drawablePadding="10sp"
+        android:padding="10dp"/>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/soucial"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/birthdate">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/facebook"
+            android:background="@drawable/fecbook_logo"
+            android:layout_alignParentStart="true"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:id="@+id/linkin"
+            android:background="@drawable/link_in"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/instagram_logo"
+            android:id="@+id/instagram"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

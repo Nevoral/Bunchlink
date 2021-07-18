@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/background_welco"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:id="@+id/first">
+
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textColor="@color/text"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_nice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_welcome"
+            android:text="Nice to see you there!!"
+            android:textColor="@color/text"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/loginbutton"
+            android:hint="Sign in"
+            android:textColorHint="@color/blue_writ"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="Don't have an account? "
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/reg"
+            android:layout_toEndOf="@+id/reg"
+            android:clickable="true"
+            android:text="Sign Up"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
